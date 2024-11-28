@@ -1,4 +1,15 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+
+module.exports = {
+    reactStrictMode: true,
+    env: {
+      NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL,
+    },
+  };
+  /** @type {import('next').NextConfig} */
+const nextConfig = {
+    images:{
+        domains:['images.unsplash.com']
+    }
+};
 
 export default nextConfig;
