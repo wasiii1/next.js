@@ -1,0 +1,55 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "Guitar Fundamentals",
+        "slug": "guitar-fundamentals",
+        "description": "A comprehensive introduction to guitar techniques, chords, and scales for beginners.",
+        "price": 99.99,
+        "instructor": "John Doe",
+        "isfeatured": true,
+        "image": "guitar-fundamentals.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Advanced Piano Techniques",
+        "slug": "advanced-piano-techniques",
+        "description": "Master advanced piano skills, including improvisation, complex chord progressions, and performance tips.",
+        "price": 149.99,
+        "instructor": "Jane Smith",
+        "isfeatured": false,
+        "image": "advanced-piano-techniques.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Introduction to Drumming",
+        "slug": "introduction-to-drumming",
+        "description": "Learn basic drumming patterns, rhythm exercises, and essential drumming techniques.",
+        "price": 89.99,
+        "instructor": "Mike Johnson",
+        "isfeatured": true,
+        "image": "introduction-to-drumming.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Vocal Training for Beginners",
+        "slug": "vocal-training-for-beginners",
+        "description": "Develop your singing voice with breath control, vocal exercises, and performance techniques.",
+        "price": 79.99,
+        "instructor": "Lisa Green",
+        "isfeatured": false,
+        "image": "vocal-training-for-beginners.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Jazz Saxophone Essentials",
+        "slug": "jazz-saxophone-essentials",
+        "description": "Explore the key elements of jazz saxophone playing, including improvisation and scales.",
+        "price": 129.99,
+        "instructor": "Alan Brown",
+        "isfeatured": true,
+        "image": "jazz-saxophone-essentials.jpg"
+      }
+    ]
+  }
+  
