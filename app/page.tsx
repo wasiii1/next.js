@@ -7,7 +7,7 @@ import UpcommingWebinars from "@/components/UpcommingWebinars";
 
 export default function Home() {
   return (
-    <main className="m-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
+    <main className="m-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02] ">
           <HeroSection/> 
           <FeaturedCourses />
           <WhyChooseUs/>

@@ -48,7 +48,7 @@ const musicschoolcontent = [
 
 function WhyChooseUs() {
   return (
-    <div className="h-screen" >
+    <div>
         <StickyScroll content={musicschoolcontent} />
     </div>
   )
