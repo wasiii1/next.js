@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/Navbar-menu";
-import { cn } from "@/utl/cn";
+import { cn } from "@/utl/cn"; // Ensure this path is correct
 import Link from "next/link";
 
 const Navbar = ({ className }: { className?: string }) => {
