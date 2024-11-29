@@ -17,8 +17,9 @@
         "name": "next"
       }
     ],
- "paths": {
-      "@/*": ["*"]
+    "baseUrl": ".",  // This sets the base URL to the root of the project
+    "paths": {
+      "@/*": ["*"]  // This allows you to use @/ for imports starting from the root directory
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

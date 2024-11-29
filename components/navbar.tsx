@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from "react";
-import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/Navbar-menu";
+import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/utl/cn"; // Ensure this path is correct
 import Link from "next/link";
 
@@ -18,7 +18,7 @@ const Navbar = ({ className }: { className?: string }) => {
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/courses">All courses</HoveredLink>
             <HoveredLink href="/courses">Basic Music Theory</HoveredLink>
-            <HoveredLink href="/courses">Advance Composition</HoveredLink>
+            <HoveredLink href="/courses">Advanced Composition</HoveredLink>
             <HoveredLink href="/courses">Songwriting</HoveredLink>
             <HoveredLink href="/courses">Music Production</HoveredLink>
           </div>
