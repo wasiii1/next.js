@@ -1,33 +1,26 @@
 {
   "compilerOptions": {
-    // Basic Options
-    "target": "ESNext",                          // Modern JavaScript features
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],    // Browser and modern JavaScript APIs
-    "module": "ESNext",                          // Use ESNext modules
-    "moduleResolution": "Node",                 // Resolve modules like Node.js
-    "strict": true,                              // Enable all strict type checks
-
-    // JSX Options
-    "jsx": "preserve",                           // Preserve JSX for Next.js to handle
-    "esModuleInterop": true,                     // Allow default imports from CommonJS
-    "allowSyntheticDefaultImports": true,       // Support default imports for non-ES modules
-    "resolveJsonModule": true,                   // Import JSON files as modules
-
-    // Path Aliases
-    "baseUrl": ".",                              // Base URL for module resolution
-    "paths": {
-      "@/components/*": ["components/*"],        // Alias for components folder
-      "@/utils/*": ["utils/*"],                  // Alias for utilities folder
-      "@/styles/*": ["styles/*"],                // Alias for styles folder
-      "@/data/*": ["data/*"],                    // Alias for data folder
-      "@/public/*": ["public/*"]                 // Alias for public assets
-    },
-
-    // Output and Build
-    "outDir": "dist",                            // Output directory for compiled files
-    "skipLibCheck": true,                        // Skip type checking of declaration files
-    "forceConsistentCasingInFileNames": true     // Enforce case-sensitive imports
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+ "paths": {
+      "@/*": ["*"]
+    }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"], // Files to include in the project
-  "exclude": ["node_modules", ".next", "dist"]       // Files/directories to exclude
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }
